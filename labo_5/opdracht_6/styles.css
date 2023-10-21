@@ -1,0 +1,25 @@
+h1,h2,h3{
+  font-family: 'Arial';
+}
+p{
+    font-family: 'Times New Roman';
+    font-size: 1.2em;
+}
+.titel{
+    font-size: 1.8em;
+}
+.subtitel{
+    font-size: 1.5em;
+}
+.onderdeel{
+    font-size: 1.4em;
+}
+.gezinspedagogiek{
+    color: #ff0000;
+}
+.opvoeding{
+    color:#00ff00;
+}
+.begeleiding{
+    color: #0000ff;
+}
