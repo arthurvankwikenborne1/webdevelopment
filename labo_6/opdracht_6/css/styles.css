@@ -1,0 +1,8 @@
+.checklist{
+    list-style-type: none;
+    list-style-image: url("../images/icons8-unchecked-checkbox-16.png");
+
+}
+.checked{
+    list-style-image: url("../images/icons8-checkbox-16.png");
+}
