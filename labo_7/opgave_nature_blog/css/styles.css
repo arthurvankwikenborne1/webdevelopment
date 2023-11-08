@@ -1,0 +1,55 @@
+body{
+    width: 95%;
+    margin: 0 auto 10px;
+    font-family: "Verdana", sans-serif;
+}
+
+nav{
+    background-color: #444444;
+    padding: 6px;
+    & a{
+        color: #52E67B;
+        text-decoration: none;
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+}
+
+article{
+    background-color: #EEEEEE ;
+    padding: 0 4px;
+    & header{
+        & h1{
+            font-size: 1.4em;
+            text-decoration: underline;
+            color: #444444;
+            margin: 4px 0;
+            padding: 1em 0;
+        }
+    }
+    & p{
+        font-size: 0.8em;
+    }
+    & footer{
+        font-size: 0.85em;
+    }
+}
+footer{
+    font-size: 0.8em;
+    padding-top: 4px;
+}
+
+.c-header{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 0 8px;
+    height: 70px;
+    margin-top: 0;
+}
+
+
+
+
+
