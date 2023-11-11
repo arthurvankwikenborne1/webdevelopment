@@ -69,15 +69,11 @@ article{
 }
 
 footer{
-    padding: 8px 0;
-    color: #E0DDCF;
     background-color: black;
+    color: white;
     text-align: center;
-    font-size: 0.8em;
-    font-weight: 600;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    padding: 12px 0;
+    font-weight: bold;
 }
 
 #aboutme{
@@ -159,9 +155,13 @@ footer{
     bottom: 20px;
     right: 20px;
     list-style-type: none;
-    & a{
+    text-align: center;
+    & .fixed-links{
+        font-family: 'Inter', sans-serif;
         text-decoration: none;
-        color: #2D232E;
+        color: darkslategrey;
+        font-weight: 600;
+
     }
 }
 
@@ -192,7 +192,10 @@ td{
 }
 
 .alt td{
-    background-color: green;
+    background-color: #E0DDCF;
+}
+.article-img{
+    width: 400px;
 }
 
 

@@ -39,7 +39,7 @@ thead {
         }
     }
 }
-#other-month{
+.other-month{
     border: 1px dotted #A9ADB1;
     background-color: #CCCCCC;
     color: #A9ADB1;

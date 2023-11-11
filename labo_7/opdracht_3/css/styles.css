@@ -20,6 +20,9 @@ td{
     background-color: white;
 }
 
+.onbekend{
+    background-color: rgba(255, 0, 0, 0.58);
+}
 .alt td{
     background-color: #E0DDCF;
 }
