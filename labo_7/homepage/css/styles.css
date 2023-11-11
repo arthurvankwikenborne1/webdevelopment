@@ -4,6 +4,70 @@ body{
     background-color: #F0EDEE;
 }
 
+article{
+    margin: 2em 2em;
+    padding: 2em 2em;
+    background-color: white;
+    border-radius: 8px;
+    & h2{
+        text-align: center;
+    }
+    & p{
+        text-align: center;
+        padding-bottom: 0.8em;
+        & a{
+            text-decoration: none;
+            background-color: #8D99AE;
+            color: #F0EDEE;
+            font-weight: 700;
+            padding: 0.8em;
+            border-radius: 20px;
+            &:hover{
+                color: #444444;
+            }
+        }
+    }
+}
+
+.likes{
+    margin: 0 auto;
+    & h2{
+        font-family: 'Inter', sans-serif;
+        font-size: 2em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1em;
+        background-color: #8D99AE;
+        color: white;
+    }
+    & article{
+        text-align: center;
+        & > img{
+            border-radius: 12px;
+        }
+        & > a{
+            text-decoration: none;
+            color: white;
+            background-color: #8D99AE;
+            font-weight: 700;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 2px;
+            &:hover{
+                color: #2d2d2d;
+            }
+        }
+        & > .imdb{
+            background-color: #F5C518;
+            color: black;
+        }
+        & > .youtube {
+            background-color: #FF0000;
+            color: white;
+        }
+    }
+}
+
 footer{
     padding: 8px 0;
     color: #E0DDCF;
@@ -16,7 +80,7 @@ footer{
     width: 100%;
 }
 
-.aboutme{
+#aboutme{
     margin: 2em 2em;
     padding: 1em 1.5em;
     display: flex;
@@ -51,35 +115,18 @@ footer{
     }
 }
 
-.c-navigation{
-    display: flex;
-    list-style-type: none;
-    background-color: #E0DDCF;
-    padding: 16px 0;
-    margin : 0;
-    & li{
-        margin: 0 auto;
-        & a{
-            text-decoration: none;
-            font-size: 1.5em;
-            font-weight: 700;
-            color:#2D232E ;
-            &:hover{
-                background-color:#474448 ;
-                color:#F1F0EA ;
-                font-weight: 600;
-                padding: 10px;
-                border-radius: 20px;
-            }
-        }
-    }
+.c-menu{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-transform:capitalize;
 }
 
-.header-banner{
+.banner-about-me ,
+.banner-hobbies ,
+.banner-likes{
     font-family: 'Inter', sans-serif;
     font-size: 2em;
     margin:0;
-    background-image: url("../images/timothy-eberly-yuiJO6bvHi4-unsplash.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto ;
@@ -96,6 +143,17 @@ footer{
         margin:0;
     }
 }
+
+.banner-about-me{
+    background-image: url("../images/timothy-eberly-yuiJO6bvHi4-unsplash.png");
+}
+.banner-hobbies{
+    background-image: url("../images/pierre-bamin-P2POGRtGprA-unsplash.png");
+}
+.banner-likes{
+    background-image: url("../images/rodion-kutsaiev-qCc__FUpEFM-unsplash.png");
+}
+
 .footer-links{
     position: fixed;
     bottom: 20px;
@@ -104,7 +162,35 @@ footer{
     & a{
         text-decoration: none;
         color: #2D232E;
-
     }
 }
+
+table {
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Style table headers */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.56);
+}
+td{
+    background-color: white;
+}
+
+.onbekend{
+    background-color: rgba(255, 0, 0, 0.58);
+}
+
+
+
 

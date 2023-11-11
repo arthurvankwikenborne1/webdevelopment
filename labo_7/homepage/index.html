@@ -7,18 +7,14 @@
 </head>
 <body>
     <nav class="c-menu">
-        <ul class="c-navigation">
-            <li><a href="index.html">About me</a></li>
-            <li><a href="hobbys.html">Hobbies</a></li>
-            <li><a href="likes.html">Likes</a></li>
-        </ul>
+        <h1>Homepage</h1>
     </nav>
     <main>
-        <header class="header-banner">
+        <header class="banner-about-me">
             <h1>About me</h1>
-            <h2>Arthur Van Kwikenborne</h2>
+            <h2>Important information</h2>
         </header>
-        <section class="aboutme">
+        <section id="aboutme">
             <div class="info-item">
                 <strong>full name</strong>
                 <p>Arthur Van Kwikenborne</p>
@@ -36,12 +32,131 @@
                 <p><a href="mailto:arthur.vankwikenborne@student.vives.be">arthur.vankwikenborne@student.vives.be</a></p>
             </div>
         </section>
+        <header id="hobbies" class="banner-hobbies">
+            <h1>Hobby&apos;s</h1>
+            <h2>What I do in my free time...</h2>
+        </header>
+        <article>
+            <h2>Fitness</h2>
+            <p>Fitness is a state of physical and mental well-being achieved through regular exercise, a balanced diet, and overall healthy lifestyle choices. It encompasses strength, endurance, flexibility, and vitality, empowering individuals to lead active and fulfilling lives.</p>
+            <p><a href="https://row.gymshark.com/">gym clothing</a>
+        </article>
+        <article>
+            <h2>Football</h2>
+            <p>Football, also known as soccer in some regions, is a globally popular team sport characterized by two teams competing to score goals by getting a ball into the opposing team's net. It combines athleticism, strategy, and teamwork, captivating millions of fans and players around the world.
+            </p>
+            <p><a href="https://www.espn.com/">football news</a></p>
+        </article>
+        <article>
+            <h2>Gaming</h2>
+            <p>Gaming is a form of entertainment and recreation that involves interactive digital or tabletop experiences, allowing players to immerse themselves in virtual worlds, solve challenges, and compete with others. It has grown into a diverse and dynamic industry, spanning genres from action-packed shooters to strategic simulations, catering to a wide range of tastes and preferences.
+            </p>
+            <p><a href="http://steam.com">discover games</a></p>
+        </article>
+        <header class="banner-likes">
+            <h1>Likes</h1>
+            <h2>My favorite topics</h2>
+        </header>
+        <section class="likes">
+            <h2>Favorite bands</h2>
+            <article>
+                <h3>Abba</h3>
+                <img src="./images/abba.jpg" alt="Abba" width=400 height=267><br>
+                <a href="http://abbasite.com/">Abba fanshop</a>
+            </article>
+            <article>
+                <h3>Queen</h3>
+                <img src="./images/queen.jpg" alt="Queen" width="400"><br>
+                <a href="https://queenonlinestore.com/">Queen fanshop</a>
+            </article>
+        </section>
+        <section class="likes">
+            <h2>Favorite music</h2>
+            <article>
+                <h3>I put a spell on you - Nina Simone</h3>
+                <img src="./images/Nine-Simone-1.jpg" alt="I put a spell on you - Nina Simone" width="400"><br>
+                <a href="https://www.youtube.com/watch?v=WCjzNfJLHa0" class="youtube">Music video</a>
+            </article>
+            <article>
+                <h3>Great balls of fire - Jerry Lee Lewis</h3>
+                <img src="./images/Ballsoffireposter.jpg" alt="Great Balls Of Fire" width="400"><br>
+                <a href="https://www.google.com/search?q=great+balls+of+fire&source=lmns&tbm=vid&bih=738&biw=1536&hl=nl&sa=X&ved=2ahUKEwimob2Yk-SBAxUNnf0HHfCaCKwQ0pQJKAF6BAgBEAQ#fpstate=ive&vld=cid:bea3754a,vid:0VJ1NuAbEBI,st:0" class="youtube">Music video</a><br>
+            </article>
+        </section>
+        <section id="likes" class="likes">
+            <h2>Favorite movies</h2>
+            <article>
+                <h3>A bronx tale</h3>
+                <img src="./images/abronxtale.jpg" alt="A bronx tale" width="400"><br>
+                <a href="https://www.imdb.com/title/tt0106489/" class="imdb">IMDb rating </a>
+            </article>
+            <article>
+                <h3>Leon</h3>
+                <img src="./images/leon.jpg" alt="leon" width="400"><br>
+                <a href="https://www.imdb.com/title/tt0110413/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_leon" class="imdb">IMDb rating</a>
+            </article>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Voornaam</th>
+                    <th>Familienaam</th>
+                    <th>Postcode</th>
+                    <th>Gemeente</th>
+                    <th>Telefoonnummer</th>
+                    <th>Balans</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sarah</td>
+                    <td>De Vries</td>
+                    <td>1000</td>
+                    <td>Brussel</td>
+                    <td>0123 456 789</td>
+                    <td>2500 &euro;</td>
+                </tr>
+                <tr class="alt">
+                    <td>Thomas</td>
+                    <td>Van Dijk</td>
+                    <td>9000</td>
+                    <td>Gent</td>
+                    <td>0456 789 012</td>
+                    <td>1800 &euro;</td>
+                </tr>
+                <tr>
+                    <td>Laura</td>
+                    <td>Maes</td>
+                    <td>2000</td>
+                    <td>Antwerpen</td>
+                    <td>0789 012 345</td>
+                    <td>3500 &euro;</td>
+                </tr>
+                <tr class="alt">
+                    <td>Kevin</td>
+                    <td>Jacobs</td>
+                    <td class="onbekend"></td>
+                    <td class="onbekend"></td>
+                    <td>0345 678 901</td>
+                    <td>1200 &euro;</td>
+                </tr>
+                <tr>
+                    <td>Elise</td>
+                    <td>Vermeulen</td>
+                    <td>5000</td>
+                    <td>Leuven</td>
+                    <td>0678 901 234</td>
+                    <td class="onbekend"></td>
+                </tr>
+            </tbody>
+        </table>
+        
         <ul class="footer-links">
-            <li><a href="./hobbys.html"><img src="./images/icons8-hobby-64.png" alt=""></a></li>
-            <li><a href="./likes.html"><img src="./images/icons8-likes-64.png" alt=""></a></li>
+            <li><a href="#hobbies"><img src="./images/icons8-hobby-64.png" alt=""></a></li>
+            <li><a href="#likes"><img src="./images/icons8-likes-64.png" alt=""></a></li>
         </ul>
     </main>
-    <footer>
+    <footer hidden>
         &copy;Arthur Van Kwikenborne
     </footer>
 </body>
