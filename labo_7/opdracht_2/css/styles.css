@@ -1,0 +1,25 @@
+table {
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Style table headers */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.56);
+}
+td{
+    background-color: white;
+}
+
+.onbekend{
+    background-color: rgba(255, 0, 0, 0.58);
+}
