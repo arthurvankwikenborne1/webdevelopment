@@ -1,0 +1,119 @@
+body{
+    margin: 0 auto ;
+    width: 95%;
+    font-family: Arial, Helvetica, 'sans-serif';
+}
+.banner{
+    text-align: center;
+    color: darkblue;
+    margin:0;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+main{
+    width: 75%;
+    &>header{
+        display: flex;
+        background-color: white;
+        align-items: flex-start;
+        color: black;
+        text-align: justify;
+        margin-top: 20px;
+        & > p {
+
+            margin: 0;
+            padding: 0 30px 20px 0;   /*top right bottom left*/
+            display: inline-block;
+            > span{
+                color: blue;
+                font-style: italic;
+                font-weight: bold;
+            }
+        }
+        & > .logo{
+            float: left;
+            padding:0 20px;
+            display: inline-block;
+            width: 100px;
+            height: 80px;
+        }
+    }
+}
+footer{
+    clear: both;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    display: flex;
+    & > .block{
+        padding-left: 120px;
+    }
+    & > .block2{
+
+    }
+    & a{
+        color: white;
+        text-decoration: underline;
+    }
+    & a:hover{
+        color: red;
+    }
+}
+.gallery{
+    background-color: #999999;
+    padding: 10px;
+    & > .foto{
+        display: inline-block;
+        margin: 10px;
+        & > img{
+            width: 180px;
+            height: 180px;
+            padding: 20px;
+            background-color: white;
+            border: 1px dashed #999999;
+        }
+    }
+
+}
+
+.header-title{
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+.header-caption{
+    font-weight: bold;
+    font-size: 2.4em;
+}
+.vliegtuig{
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+}
+.news{
+    box-sizing: border-box;
+    float: right;
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    &>p{
+        color: #666666;
+        font-size: .9em;
+        margin: 0 10px;
+    }
+    &>h3{
+        color: white;
+        background-color: blue;
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
+.copyright{
+    text-align: center;
+    color: black;
+    background-color: white;
+}

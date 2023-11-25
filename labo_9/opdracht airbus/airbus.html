@@ -4,16 +4,17 @@
 
 	<meta charset="UTF-8">
 	<title>Airbus Webpagina</title>
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-	<header> <!-- top -->
-		<p>AIRBUS - A380</p>
-		<p>Het grootste passagiersvliegtuig ter wereld </p>
-		<img src="images/tekklein.png" alt="tekening van vliegtuig" />
-    </header>
+	<div class="banner"> <!-- top -->
+		<p class="header-title">AIRBUS - A380</p>
+		<p class="header-caption">Het grootste passagiersvliegtuig ter wereld </p>
+		<img class="vliegtuig" src="images/tekklein.png" alt="tekening van vliegtuig" />
+    </div>
 	
-    <div> <!-- news -->
+    <div class="news"> <!-- news -->
 		<h3>Eerste vlucht</h3>
 		<p>Het toestel maakte zijn eerste trans-Atlantische vlucht met passagiers op 19 maart 2007 tussen
 			 Frankfurt am Main en New York.
@@ -35,12 +36,8 @@
     </div>
 	
     <main> <!-- main -->
-	
-        <div> <!-- logo -->
-			<img src="images/airbus_logo.jpg" alt="Het logo van airbus" />
-        </div>
-		
-        <div> <!-- introduction -->
+        <header> <!-- introduction -->
+			<img class="logo" src="images/airbus_logo.jpg" alt="Het logo van airbus" />
 			<p><b>De Airbus A380</b> is het grootste passagiersvliegtuig ter wereld. Het is
 			   een product van het Europese concern Airbus. Het widebody-vliegtuig beschikt over twee
 			   verdiepingen, waardoor het maximaal 853 passagiers kan herbergen. Bij een gemiddelde configuratie
@@ -51,9 +48,9 @@
 			   toestel werd onderhouden. </span> Anno april 2011 hebben vijf luchtvaartmaatschappijen 47
 			   vliegtuigen van dit type in dienst.
 			</p>
-		</div>
+		</header>
 		
-		<section> <!-- gallery -->
+		<div class="gallery"> <!-- gallery -->
 			<div class="foto">
 			  <img src="images/A380Grond.JPG" alt="Foto vliegtuig op de grond" />
 			</div>
@@ -81,12 +78,12 @@
 			<div class="foto">
 			  <img src="images/abramovich.jpg" alt="foto"/>
 			</div> 
-		</section>
+		</div>
 	</main>
 	
-    <aside> <!-- bottom -->
+    <footer> <!-- bottom -->
 	
-		<div> <!-- block -->
+		<div class="block"> <!-- block -->
 			<ul>
 			  <li> Manchester </li>
 			  <li> Toulouse 
@@ -99,7 +96,7 @@
 			</ul>
 		</div>
 		
-		<div> <!-- block -->
+		<div class="block"> <!-- block -->
 			<ul>
 			  <li> Documentary </li>
 			  <li> Aircrafts 
@@ -111,11 +108,11 @@
 			   <li> A380 - 800 </li>
 			</ul>
 		</div>
-    </aside>
-	
-	<div> <!-- copyright -->
+    </footer>
+	<div class="copyright"> <!-- copyright -->
 		<p>&lt; &copy; Airbus A380 &gt;</p>
 	</div>
+
 	
 </body>
 </html>
