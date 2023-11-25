@@ -1,0 +1,31 @@
+body{
+    font-size: 1.25em;
+    font-family: 'Arial', sans-serif;
+}
+article{
+    border: 1px solid #000000 ;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+img{
+    display: inline-block;
+
+}
+
+p{
+    font-size: 1.25em;
+}
+h2{
+    clear: both;
+    margin:0;
+}
+
+.links{
+    float: left;
+    padding-right: 10px;
+}
+.rechts{
+    float: right;
+    padding-left: 10px;
+}
