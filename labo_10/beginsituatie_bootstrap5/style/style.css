@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+}
+
+.lichtgrijs{
+    background-color: #DBDFE5;
+}
+.donkergrijs{
+    background-color: #abb1b8;
+}
+
+div[class*="col"]
+{
+    margin: 0 10px;
+    height: 200px;
+}
