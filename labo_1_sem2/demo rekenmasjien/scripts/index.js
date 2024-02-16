@@ -16,8 +16,8 @@ const optellen = () => {
 	let txtLinks=document.getElementById("txtLinks");
 	let txtRechts=document.getElementById("txtRechts");
 	
-	let g1=parseInt(txtLinks.value, 10);
-	let g2=parseInt(txtRechts.value, 10);
+	let g1=parseInt(txtLinks.value, 10); //decimaal
+	let g2=parseInt(txtRechts.value, 10);	//decimaal
 	let resultaat = g1+g2;
 
 	let resultaatTekst=g1+" + "+g2+" = "+resultaat;
