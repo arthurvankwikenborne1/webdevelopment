@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Inschrijvingsformulier</title>
+</head>
+<body>
+<form action="#" method="get">
+    <fieldset>
+        <div>
+            <label for="firstname">First name*:</label>
+            <input type="text" required name="firstname" id="firstname" placeholder="Your first name">
+        </div>
+        <div>
+            <label for="lastname">Lastname*:</label>
+            <input type="text" required name="lastname" id="lastname" placeholder="Your last name">
+        </div>
+        <p>Which sport do you train?</p>
+        <div>
+            <label for="running">Running</label>
+            <input type="checkbox" name="running" id="running">
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" name="swimming" id="swimming">
+            <label for="rowing">Rowing</label>
+            <input type="checkbox" name="rowing" id="rowing">
+        </div>
+        <p>What is your gender</p>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="female" id="female">
+        </div>
+        <div>
+            <label for="fav_movie">Favorite movie:</label>
+            <input type="text" name="fav_movie" id="fav_movie">
+        </div>
+        <div>
+            <label for="fav_quote">Favorite quote</label>
+            <input type="text" name="fav_quote" id="fav_quote" placeholder="Write your favorite quote">
+        </div>
+        <div>
+            <label for="password">Password*:</label>
+            <input type="password" required name="password" id="password">
+        </div>
+        <div>
+            <label for="fav_food">Favorite food:</label>
+            <select name="fav_food" id="fav_food">
+                <option value="hamburger">Hamburger</option>
+                <option value="pitta">Pitta</option>
+                <option value="...">...</option>
+            </select>
+        </div>
+        <div>
+            <input type="file" name="upload" id="upload">
+            <label for="upload"></label>
+        </div>
+        <div>
+            <label for="email">Email address:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email adress">
+        </div>
+        <div>
+            <label for="fav_site">Favorite site:</label>
+            <input type="url" name="fav_site" id="fav_site" placeholder="Enter the URL of your favorite site">
+        </div>
+        <div>
+            <label for="fav_number1">Favorite number between 1-10:</label>
+            <input type="number" min="1" max="10" name="fav_number1" id="fav_number1">
+        </div>
+        <div>
+            <label for="fav_number2">Favorite number between 11-1000:</label>
+            <input type="range" name="fav_number2" id="fav_number2" min="11" max="1000">
+        </div>
+        <div>
+            <label for="born">When were you born?</label>
+            <input type="date" name="born" id="born" placeholder="Dag/Maand/Jaar">
+        </div>
+        <div>
+            <label for="zipcode">Belgium zip-code reg number*:</label>
+            <input type="text" required pattern="\d{4}" name="zipcode" id="zipcode" placeholder="9999">
+        </div>
+        <div>
+            <label for="search">Search for something:</label>
+            <input type="search" name="search" id="search">
+        </div>
+        <div>
+            <label for="fav_color">What is your favorite color?</label>
+            <input type="color" name="fav_color" id="fav_color" value="black">
+        </div>
+        <button type="submit">
+            <span>Submit</span>
+        </button>
+    </fieldset>
+</form>
+
+
+
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
