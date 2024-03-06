@@ -16,21 +16,31 @@
             <label for="lastname">Lastname*:</label>
             <input type="text" required name="lastname" id="lastname" placeholder="Your last name">
         </div>
-        <p>Which sport do you train?</p>
+        <span>Which sport do you train?</span>
         <div>
-            <label for="running">Running</label>
-            <input type="checkbox" name="running" id="running">
-            <label for="swimming">Swimming</label>
-            <input type="checkbox" name="swimming" id="swimming">
-            <label for="rowing">Rowing</label>
-            <input type="checkbox" name="rowing" id="rowing">
+            <div>
+                <label for="running">Running</label>
+                <input type="checkbox" name="sport" value="running" id="running">
+            </div>
+            <div>
+                <label for="swimming">Swimming</label>
+                <input type="checkbox" name="sport" value="swimming" id="swimming">
+            </div>
+            <div>
+                <label for="rowing">Rowing</label>
+                <input type="checkbox" name="sport" value="rowing" id="rowing">
+            </div>
         </div>
-        <p>What is your gender</p>
+        <span>What is your gender?</span>
         <div>
-            <label for="male">Male</label>
-            <input type="radio" name="male" id="male">
-            <label for="female">Female</label>
-            <input type="radio" name="female" id="female">
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female">
+            </div>
         </div>
         <div>
             <label for="fav_movie">Favorite movie:</label>
@@ -74,11 +84,11 @@
         </div>
         <div>
             <label for="born">When were you born?</label>
-            <input type="date" name="born" id="born" placeholder="Dag/Maand/Jaar">
+            <input type="date" name="born" id="born">
         </div>
         <div>
             <label for="zipcode">Belgium zip-code reg number*:</label>
-            <input type="text" required pattern="\d{4}" name="zipcode" id="zipcode" placeholder="9999">
+            <input type="text" required pattern="^(?!999[3-9]|9999)\d{4}$" name="zipcode" id="zipcode" placeholder="9999">
         </div>
         <div>
             <label for="search">Search for something:</label>
@@ -86,17 +96,13 @@
         </div>
         <div>
             <label for="fav_color">What is your favorite color?</label>
-            <input type="color" name="fav_color" id="fav_color" value="black">
+            <input type="color" name="fav_color" id="fav_color">
         </div>
         <button type="submit">
             <span>Submit</span>
         </button>
     </fieldset>
 </form>
-
-
-
-
 <script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
 </body>
 </html>
