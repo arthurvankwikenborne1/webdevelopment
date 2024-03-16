@@ -1,0 +1,5 @@
+.foutmelding{
+    font-weight: bold;
+    color: red;
+    border: 1px solid darkred;
+}
