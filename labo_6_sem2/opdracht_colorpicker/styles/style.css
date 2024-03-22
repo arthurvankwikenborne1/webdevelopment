@@ -1,0 +1,34 @@
+.colorPicker{
+    display: flex;
+    border: 2px solid grey;
+    padding: 1em;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.components{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+
+.swatch{
+    width:70px;
+    height:70px;
+    border:2px solid grey;
+    border-radius: 5px;
+}
+
+#savedColors{
+    display: flex;
+}
+
+.savedColor{
+    width: 70px;
+    height: 70px;
+    border: 2px solid grey;
+    margin-right: 10px;
+}
