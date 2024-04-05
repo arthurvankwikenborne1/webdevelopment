@@ -1,0 +1,12 @@
+.hidden{
+    display: none;
+}
+
+#bord{
+    width: 1800px;
+}
+
+.kaartje{
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
