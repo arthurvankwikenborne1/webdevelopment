@@ -2,15 +2,12 @@
 <html lang="nl">
 <head> 
 	<title>Color</title>
-
-	<script type="text/javascript" charset="utf-8" src="scripts/storage.js"></script>
-	<script type="text/javascript" charset="utf-8" src="scripts/swatch.js"></script>
-	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
 	<link rel="stylesheet" href="styles/styles.css">
 </head> 
 
 <body> 
 	<section class="colorPicker">
+		<h1>Colorpicker</h1>
 		<div class="components">
 			<div class="component">
 				<span>0<label for="sldRed"></label><input type="range" id="sldRed" class="slider" value="128" min="0" max="255" />255</span>
@@ -31,8 +28,12 @@
 		<div class="swatch rounded" id="swatch"></div>
         <input type="button" id="btnSave" value="Save">
 	</section>
-    <section id="swatchComponents"></section>
-	<p id="txtResult">(nog niet geklikt)</p>.
+    <section id="swatchComponents">
+		<h1>Swatch</h1>
+	</section>
 	Bugfix met stopPropagation(), zie BUGFIX commentaar in code.
+	<script src="scripts/storage.js"></script>
+	<script src="scripts/swatch.js"></script>
+	<script src="scripts/code.js"></script>
 </body>
 </html> 

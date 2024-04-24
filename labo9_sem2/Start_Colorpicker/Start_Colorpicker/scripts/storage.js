@@ -1,6 +1,8 @@
+let global = {
+    swatches : [],
+    sliderValues : []
+}
 
-let swatches = []
-let sliderValues = []
 const storeSliderValues = () => {
     let kleur = {};
     let kleurenJSON;
@@ -9,8 +11,8 @@ const storeSliderValues = () => {
     kleur.groen = document.getElementById("lblGreen").textContent;
     kleur.blauw = document.getElementById("lblBlue").textContent;
 
-    sliderValues[sliderValues.length] = kleur;
-    kleurenJSON = JSON.stringify(sliderValues);
+    global.sliderValues[global.sliderValues.length] = kleur;
+    kleurenJSON = JSON.stringify(global.sliderValues);
     localStorage.setItem("sliderValues", kleurenJSON);
 };
 
@@ -34,8 +36,8 @@ const storeSwatches = () => {
     kleur.groen = document.getElementById("sldGreen").value;
     kleur.blauw = document.getElementById("sldBlue").value;
 
-    swatches[swatches.length] = kleur;
-    kleurenJSON = JSON.stringify(swatches);
+    global.swatches[global.swatches.length] = kleur;
+    kleurenJSON = JSON.stringify(global.swatches);
     localStorage.setItem("swatches", kleurenJSON);
 }
 
